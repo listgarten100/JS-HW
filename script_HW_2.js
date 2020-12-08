@@ -14,8 +14,7 @@ console.log('Sample JavaScript #2 HW #16');
 var userObj = {
   firstName: 'Vlad',
   lastName: 'Listgarten',
-  age: 23,
- 
+  age: 23
 };
 
 
@@ -49,8 +48,6 @@ console.log(userObj.fullName());
  *
  * При выполнении задачи не используйте оператор if, требуется решение с логическим оператором ||.
  */
-
-
 
 let defUpperStr = function(text) {
   return (text || 'DEFAULT TEXT').toUpperCase();
@@ -257,7 +254,6 @@ console.log(oddFn(20)); // [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
  * mainFunc(2, 5, cbAdd) → 7
  * mainFunc(2, 5, 'not a func') → false
  */
-
 
  var mainFunc = function (a, b, func) {
    if (typeof func !== 'function') {
